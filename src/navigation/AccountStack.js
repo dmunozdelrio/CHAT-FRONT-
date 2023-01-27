@@ -34,10 +34,10 @@ export default function AccountStack() {
         }}
       />
       <Stack.Screen
-        name="favorite" //Se cambio por no repetir account para dos screens
+        name="New-chat" //Se cambio por no repetir account para dos screens
         component={Favorites}
         options={{
-          title: "Nuev mensaje",
+          title: "Nuevo mensaje",
           headerShown: false,
         }}
       />

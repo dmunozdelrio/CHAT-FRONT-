@@ -30,12 +30,12 @@ export default function Chat() {
         </ScrollView>
       </View>
       <View style={styles.ctnbtn}>
-        <TouchableOpacity onPress={() => navigation.navigate("favorite")}>
+        <TouchableOpacity onPress={() => navigation.navigate("New-chat")}>
           <View style={styles.btn}>
             <IconButton
               icon={faPlus}
               size={60}
-              onPress={() => navigation.navigate("favorite")}
+              onPress={() => navigation.navigate("New-chat")}
               color={"#fff"}
             />
           </View>
