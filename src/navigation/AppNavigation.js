@@ -14,6 +14,7 @@ export default function AppNavigation() {
     <NavigationContainer>
       <Tab.Navigator
         barStyle={styles.navigation}
+        initialRouteName={"account"}
         screenOptions={({ route }) => ({
           tabBarIcon: (routeStatus) => {
             return setIcon(route, routeStatus);
@@ -75,6 +76,9 @@ function setIcon(route, routeStatus) {
       iconName = "shopping-cart";
       break;
     case "account":
+      iconName = "bars";
+      break;
+    case "ChatScreen":
       iconName = "bars";
       break;
     default:

@@ -8,7 +8,7 @@ import Addresses from "../screens/Account/Addresses";
 import ChangeUsername from "../screens/Account/ChangeUsername";
 import ChangePassword from "../screens/Account/ChangePassword";
 import AddAddress from "../screens/Account/AddAddress";
-import Favorites from "../screens/Favorites";
+import ChatScreen from "../screens/ChatScreen";
 
 const Stack = createStackNavigator();
 
@@ -34,8 +34,8 @@ export default function AccountStack() {
         }}
       />
       <Stack.Screen
-        name="New-chat" //Se cambio por no repetir account para dos screens
-        component={Favorites}
+        name="ChatScreen" //Se cambio por no repetir account para dos screens
+        component={ChatScreen}
         options={{
           title: "Nuevo mensaje",
           headerShown: false,
