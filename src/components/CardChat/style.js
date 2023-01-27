@@ -13,17 +13,25 @@ const Style = StyleSheet.create({
     marginTop: normalize(20),
   },
   card: {
-    width: "85%",
+    width: "75%",
     justifyContent: "center",
   },
   txt: {
     color: "#fff",
-    fontSize: normalize(15),
+    fontSize: normalize(13),
+    fontWeight: "bold",
   },
   icnbutton: {
     width: "15%",
     justifyContent: "center",
     alignItems: "center",
+  },
+  icnbutton1: {
+    width: "5%",
+    justifyContent: "center",
+    alignItems: "center",
+    justifyContent: "space-around",
+    marginRight: normalize(10),
   },
 });
 export default Style;

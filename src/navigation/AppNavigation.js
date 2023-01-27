@@ -5,10 +5,8 @@ import { createMaterialBottomTabNavigator } from "@react-navigation/material-bot
 import AwesomeIcon from "react-native-vector-icons/FontAwesome";
 import colors from "../styles/colors";
 import Home from "../screens/Home";
-import Favorites from "../screens/Favorites";
 import Cart from "../screens/Cart";
 import Chat from "../screens/Chat";
-import Account from "../screens/Account/Account";
 import AccountStack from "./AccountStack";
 export default function AppNavigation() {
   const Tab = createMaterialBottomTabNavigator();
